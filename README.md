@@ -1,0 +1,2 @@
+# ZoomTyper
+Chrome Extension : Attempt
