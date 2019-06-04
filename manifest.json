@@ -2,9 +2,7 @@
     "manifest_version": 2,
     "name" : "ZoomTyper",
     "version" : "0.0.1",
-    "web_accessible_resources":[
-        "kittens/*.jpg"
-    ],
+    
     "content_scripts": [
         {
             "matches": [
