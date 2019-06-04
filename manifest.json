@@ -19,5 +19,9 @@
         "scripts": [ 
             "background.js"
          ]
+    },
+
+    "browser_action":{
+        
     }
 }
