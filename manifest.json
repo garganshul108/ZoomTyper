@@ -5,6 +5,7 @@
     "web_accessible_resources":[
         "kittens/*.jpg"
     ],
+    "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js; object-src 'self'",
     "content_scripts": [
         {
             "matches": [
@@ -22,7 +23,7 @@
             "background.js"
          ]
     },
-
+    "permissions": ["tabs"],
     "browser_action":{
         "default_popup" : "popup.html",
         "default_title": "A pop will appear"
