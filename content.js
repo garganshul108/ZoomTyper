@@ -3,7 +3,7 @@ for(i = 0 ; i < 10; i++)
 {
     console.log("Go Anshul GO!!");
 }
-
+// add popups
 let arr = ["download.jpg" , "alpha.jpg"];
 
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponce){
