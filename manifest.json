@@ -15,7 +15,9 @@
         }
     ],
 
-    "background_scripts":[
-        
-    ]
+    "background":{
+        "js": [ 
+            "background.js"
+         ]
+    }
 }
