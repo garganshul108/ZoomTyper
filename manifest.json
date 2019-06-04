@@ -3,8 +3,10 @@
     "name" : "ZoomTyper",
     "version" : "0.0.1",
     "web_accessible_resources":[
-        "kittens/*.jpg"
+        "kittens/*.jpg",
+        "maze/*"
     ],
+    "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js; object-src 'self'",
     "content_scripts": [
         {
             "matches": [
@@ -24,7 +26,7 @@
     },
 
     "browser_action":{
-        "default_popup" : "popup.html",
+        "default_popup" : "maze/maze.html",
         "default_title": "A pop will appear"
     }
 }
