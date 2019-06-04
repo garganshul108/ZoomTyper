@@ -13,5 +13,9 @@
                 "content.js"
             ]
         }
+    ],
+
+    "background_scripts":[
+        
     ]
 }
